@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+        integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <form action="#" class="my-form" onsubmit="savingDataToLocalDisk(event)">
+        <div class="continaer">
+            <div class="card">
+                <div class="card-body">
+                    <label for="usN">Username :</label>
+                    <input type="text" name="fullName" id="usN" class="form-control">
+
+                    <label for="mailID">Email-Id :</label>
+                    <input type="email" name="mailID" id="mailID" class="form-control">
+
+                    <label for="phN">Phone Number :</label>
+                    <input type="number" name="PhoneNumber" id="phN" class="form-control">
+
+                    <button class="bg bg-danger form-control"><b>SUBMIT</b></button>
+                    
+                   
+
+                </div>
+               
+            </div>
+            
+        </div>
+
+    </form>
+    <div>
+        <ul id="candidates"></ul>
+    </div>
+</body>
+<script src="012--LocalStorage_More_Users.js"></script>
+</html>
